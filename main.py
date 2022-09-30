@@ -1,4 +1,6 @@
 print ("hello")
-x= 9+5
-print (x)
-type (x)
+x= 0
+while (x<9):
+  print (" the count is:",x)
+  x=x+1
+print ("Good luck")
