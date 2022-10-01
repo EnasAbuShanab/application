@@ -13,4 +13,11 @@ import time
 start_time= time.ctime()
 print (start_time)
 
+start= 1
+target= 10
+while start<= target:
+  webbrowser.open("https://rb.gy/iwbeqn")
+  time.sleep(60)
+  start= start+1
+
 
