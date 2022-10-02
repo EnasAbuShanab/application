@@ -6,6 +6,13 @@ while (x<9):
   x=x+1
 print ("Good luck")
 
+e,f,g= 1,3.5, "abc"
+print(e,f,g)
+
+
+x={1,3,6}
+x.add (9)
+print (x)
 
 
 import webbrowser
@@ -18,6 +25,7 @@ target= 10
 while start<= target:
   webbrowser.open("https://rb.gy/iwbeqn")
   time.sleep(60)
-  start= start+1
+start= start+1
 
 
+  
