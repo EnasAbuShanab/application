@@ -15,14 +15,34 @@ print(e,f,g)
 
 print("wael \n al \t qawasmi")
 
+#sit
 x={1,3,6}
 x.add (9)
 print (x)
 
+#list
+y=[2,4,6]
+y[0]=12
+print (y)
+
+#dict
+z= {"enas":7,"wael":9}
+print(z)
+
+print("\n")
+
+u=4
+o=(u/3)
+print(o)
+
+print("\n")
+
+t="hello world"
+print (t)
+
 first_name= input("enter first name: ")
 second_name= input("enter second name: ")
 print(first_name+" " +second_name) 
-
 
 
 
