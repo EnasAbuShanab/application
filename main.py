@@ -10,6 +10,21 @@ print ("Good luck")
 
 print("\n")
 
+for letter in 'python':
+  print ('current letter is: ', letter)
+  
+print("\n")
+
+Names= ('enas','wael','toto')
+for name in Names:
+  print ('current name: ',name)
+print("\n")
+
+for x in range (1,10):
+  print(x)
+print("\n")
+
+
 e,f,g= 1,3.5, "abc"
 print(e,f,g)
 
