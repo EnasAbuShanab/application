@@ -20,6 +20,32 @@ for name in Names:
   print ('current name: ',name)
 print("\n")
 
+i=1
+while (i<5):
+  s="."
+  j=1
+  while (j<10):
+    s=s+"."
+    j=j+1
+  print (s)
+  i=i+1
+
+print("\n")
+
+for letter in 'python':
+  if letter== "h":
+    break
+  print ('current letter is: ', letter)
+
+print("\n")
+
+for letter in 'python':
+  if letter== "h":
+    continue 
+  print ('current letter is: ', letter)
+
+print("\n")
+
 for x in range (1,10):
   print(x)
 print("\n")
