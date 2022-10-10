@@ -10,6 +10,22 @@ print ("Good luck")
 
 print("\n")
 
+s=0
+c=0
+while (c<4):
+  s=s+c
+  c=c+1
+print (s)
+  
+c=0
+for l in 'python':
+  for m in 'lala':
+    c=c+1
+  c=c+1
+print (c)
+  
+
+
 for letter in 'python':
   print ('current letter is: ', letter)
   
